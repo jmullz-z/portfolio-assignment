@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="flex flex-col">
+    
+
+    <!-- nav will have a horizontal pass through the items so will use fle flex-direction of row -->
+    <nav class="flex justify-conttent-between p-5">
+        <span>
+           JessicaMullzz 
+        </span>
+
+        <ul class="nav-list flex ml-auto gap-3">
+            <li class="nav-item">About Me</li>
+            <li class="nav-item">Work</li>
+            <li class="nav-item">Contact Me</li>
+            <li class="nav-item">Resume</li>
+        </ul>
+    </nav>
+
+    <!-- banner -->
+    <sction id="banner" class="h-48 relative text-white">
+
+        <img class="object-cover h-full w-full bg-gradient-to-r from-cyan-500 to-purple-500" src="https://media-exp2.licdn.com/dms/image/C5616AQEL3euKpd3bDA/profile-displaybackgroundimage-shrink_350_1400/0/1593281338119?e=1661385600&v=beta&t=4dKegVLRj6iMxq67wD80O_9hzS3jTmD1DmpQhEryP88"/>
+
+      
+        <span class="bannerText absolute right-0 bottom-0 p-3 pr-5" >JessMullzz</span>
+    </sction>
+
+    <div class="pageContents bg-purple-200">
+
+    <!-- about me  -->
+    <section id="aboutMe" class="flex flex-row p-10 min-h-[250px]">
+        <h2 class="sectionTitle w-1/5 font-800 text-5xl text-right">About Me</h2>
+
+        <span class="contentBorder ml-5 mr-5 w-2 bg-purple-800"></span>
+        <div class="sectionContent w-4/5">Dedicated and dependable employee, eager to secure a stable position in a team-oriented environment. Good at teaching, establishing relationships with customers, organized and good at prioritizing while keeping a safe environment, attentive to details. Proficient in Excel, PowerPoint and Mac OSX Microsoft office.</div>
+    </section>
+       
+       
+
+    <!-- work -->
+    <section id="work" class="flex flex-row p-10 min-h-[250px]">
+        <h2 class="sectionTitle w-1/5 font-800 text-5xl text-right">Work</h2>
+        
+        <span class="contentBorder ml-5 mr-5 w-2 bg-purple-800"></span>
+        <ul class="items sectionContent w-4/5">
+            <li class="nav-item">REI Customer Service and Sales (Oct 2021-Feb 2022)</li>
+            <li class="nav-item">Randen Inc. Customer Care Representitve (May 2021- Aug 2021)</li>
+            <li class="nav-item">Steamboat Springs Resort Ski Instructor (Nov 2016- Apr 2020)</li>
+    
+        </ul>
+    </section>
+
+
+    <!-- contact me  -->
+    <section id="contactMe" class="flex flex-row p-10 min-h-[250px]">
+        <h2 class="sectionTitle w-1/5 font-800 text-5xl text-right">Contact Me</h2>
+
+        <span class="contentBorder ml-5 mr-5 w-2 bg-purple-800"></span>
+
+        <div class="sectionContent w-4/5">
+
+            <ul class="contactItems  [ layout  flex gap-10  ] [  specifics w-full p-4  text-2xl ] ">
+                <li class="contactItem">+1 (555) 5555 5555</li>
+                <li class="contactItem">+1 (555) 5555 5555</li>
+                <li class="contactItem">+1 (555) 5555 5555</li>
+                <li class="contactItem">+1 (555) 5555 5555</li>
+            </ul>
+
+        </div>
+    </section>
+
+    </div>
+    <!-- footer -->
+    <footer id="footer">
+
+    </footer>
+
+
+</body>
+</html>
