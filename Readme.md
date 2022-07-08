@@ -7,3 +7,6 @@ This project fulfils the portfolio assignment from basecamp bootcamp
 # Author 
 
 # Technologies
+
+## Final Version
+https://jmullz-z.github.io/portfolio-assignment/
