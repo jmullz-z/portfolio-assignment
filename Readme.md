@@ -9,4 +9,4 @@ This project fulfils the portfolio assignment from basecamp bootcamp
 # Technologies
 
 ## Final Version
-https://jmullz-z.github.io/portfolio-assignment/
+https://github.com/jmullz-z/portfolio-assignment.git
